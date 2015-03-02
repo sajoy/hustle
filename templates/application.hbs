@@ -1,4 +1,5 @@
 <div class='container'>
+
   <nav class='navbar navbar-default' role='navigation'>
     <ul class='nav navbar-nav'>
       <li>{{#link-to 'home'}}<strong>HUSTLE</strong>{{/link-to}}</li>
@@ -6,12 +7,17 @@
       <li>{{#link-to 'food'}}Food{{/link-to}}</li>
       <li>{{#link-to 'tech'}}Tech{{/link-to}}</li>
     </ul>
-    <ul class='socialmedia nav navbar-nav'>
-      <li><a href="facebook.com" target="_blank"><img src="css/icon-facebook.png"></a></li>
+    <ul class='socialmedia nav navbar-nav' {{action 'showSocialMedia' on="mouseEnter"}}>
+      <li><img src="css/icon-facebook.png"></li>
       <li><a href="twitter.com" target="_blank"><img src="css/icon-twitter.jpg"></a></li>
       <li><a href="pinterest.com" target="_blank"><img src="css/icon-pinterest.png"></a></li>
     </ul>
   </nav>
+  {{#if socialMediaShow}}
+    <h1>IT'S SHOWING!!!1</h1>
+  {{else}}
+    <h1>It's not showing</h1>
+  {{/if}}
 
   {{outlet}}
 
