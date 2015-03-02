@@ -3,7 +3,20 @@
   margin: 0 auto;
 }
 
-#carousel-example-generic {
-  /*width: 500px;*/
-  /*text-align: center;*/
+.socialmedia {
+  position: absolute;
+  right: 30px;
+  /*margin-left: 55%;*/
+}
+/*
+.socialmedia li {
+  width: 30px;
+}
+.socialmedia li img {
+  margin: 0 auto;
+}*/
+
+.socialmedia a:link {
+  padding-left: 0;
+  padding-right: 0;
 }
