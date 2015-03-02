@@ -3,10 +3,10 @@ Hustle.ApplicationController = Ember.Controller.extend({
   actions: {
     showSocialMedia: function() {
       this.set('socialMediaShow', true)
+    },
+    hideSocialMedia: function() {
+      this.set('socialMediaShow', false)
     }
-
-
-
   }
 
 });
