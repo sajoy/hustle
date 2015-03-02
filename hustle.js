@@ -1,0 +1,1 @@
+Hustle = Ember.Application.create();
