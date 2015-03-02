@@ -1,0 +1,51 @@
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">{{#link-to "baby-monster"}}
+      <img src="css/baby-monster.jpg" alt="Is your monster a baby?">
+      <div class="carousel-caption">
+        <h2>Is your Baby a Monster?</h2>
+      </div>
+      {{/link-to}}
+    </div>
+    <div class="item">{{#link-to "bloody-mary"}}
+      <img src="css/bloody-mary.jpg" alt="Loaded Bloody Mary">
+      <div class="carousel-caption">
+        <h2>Hungry?</h2>
+      </div>
+      {{/link-to}}
+    </div>
+    <div class="item">{{#link-to "high-five"}}
+      <img src="css/cat-high-five.jpg" alt="high five cat">
+      <div class="carousel-caption">
+        <h2>How to High-Five a Large Cat</h2>
+      </div>
+      {{/link-to}}
+    </div>
+    <div class="item">{{#link-to "video-game"}}
+      <img src="css/head-gear.jpg" alt="local video game conference">
+      <div class="carousel-caption">
+        <h2>PDX PIGSquad</h2>
+      </div>
+      {{/link-to}}
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

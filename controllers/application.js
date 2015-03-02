@@ -9,4 +9,6 @@ Hustle.ApplicationController = Ember.Controller.extend({
     }
   }
 
+
+
 });
