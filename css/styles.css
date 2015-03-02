@@ -1,0 +1,9 @@
+.item img {
+  max-height: 330px;
+  margin: 0 auto;
+}
+
+#carousel-example-generic {
+  /*width: 500px;*/
+  /*text-align: center;*/
+}

@@ -1,1 +1,1 @@
-Hustle = Ember.Application.create();
+Hustle = Ember.Application.create( {LOG_TRANSITIONS: true} );
