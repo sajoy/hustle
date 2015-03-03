@@ -1,11 +1,13 @@
-.item img {
-  max-height: 330px;
-  margin: 0 auto;
-}
 
 .socialmedia {
   margin-left: 61.75%;
 }
+
+.socialmedia img::hover {
+  -webkit-filter: grayscale(100%); filter: grayscale(100%);
+}
+
+
 
 a:link.icon {
   padding-left: 0;
@@ -19,6 +21,27 @@ a:link.icon {
   background-color: rgba(255,255,255,0);
 }
 
+
+.col-md-2 {
+  margin-top: 100px;
+}
+
+.prev {
+  text-align: right;
+}
+
+.next {
+  text-align: left;
+}
+
+.col-md-8 {text-align: center;}
+
 .navbar {
   margin-bottom: 0;
+}
+
+
+.caro img {
+  max-height: 330px;
+  margin: 0 auto;
 }
