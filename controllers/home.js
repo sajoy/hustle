@@ -2,7 +2,6 @@ Hustle.HomeController = Ember.Controller.extend({
 
   viewArray: ["baby-monster", "bloody-mary", "video-game", "high-five"],
 
-
   currentIndex: 0,
   storyZero: function() {
     return this.get('currentIndex') === 0;

@@ -1,15 +1,29 @@
-<h1>HOME!</h1>
-
-{{#if storyZero}}
-  <h2>zero</h2>
-  {{else}}
-    {{#if storyOne}}
-      <h4>one</h4>
+<div class="caro">
+  {{#if storyZero}}
+    {{#link-to "baby-monster"}}
+      <img src="css/baby-monster.jpg">
+      <h2>Is your Baby a Monster?</h2>
+    {{/link-to}}
     {{else}}
-      {{#if storyTwo}}
-        <h4>two</h4>
+      {{#if storyOne}}
+        {{#link-to "bloody-mary"}}
+        <img src="css/bloody-mary.jpg">
+        <h2>Hungry?</h2>
+        {{/link-to}}
+      {{else}}
+        {{#if storyTwo}}
+          {{#link-to "video-game"}}
+          <img src="css/head-gear.jpg">
+          <h2>PIGSQUAD REPRESENT!</h2>
+          {{/link-to}}
         {{else}}
-          <h4>three</h4>
+          {{#link-to "high-five"}}
+          <img src="css/cat-high-five.jpg">
+          <h2>High Five All Teh Cats!</h2>
+          {{/link-to}}
+        {{/if}}
       {{/if}}
-    {{/if}}  
-{{/if}}
+  {{/if}}
+</div>
+
+<h3><a {{action "previous"}}>Previous</a> <a {{action "next"}}>Next</a></h3>
